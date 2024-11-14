@@ -13,17 +13,17 @@ public class TrywithMulcatch {
 		   System.out.println(num[2]);
 		  	   
       }
-//	  catch(ArithmeticException e)
-//	  {
-//		  System.out.println("Divided by zero");
-//	  }
-//	  
-//	  catch(ArrayIndexOutOfBoundsException f)
-//	  {
-//		  System.out.println("Array out of bound");
-//	  }
+	  catch(ArithmeticException e)
+	  {
+		  System.out.println("Divided by zero");
+	  }
 	  
-	  catch(Exception g)
+	  catch(ArrayIndexOutOfBoundsException e)
+	  {
+		  System.out.println("Array out of bound");
+	  }
+	  
+	  catch(Exception e)
 	  {
 		  System.out.println(("something is wrong"));
 	  }
