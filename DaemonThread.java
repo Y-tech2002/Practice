@@ -14,10 +14,10 @@ class Kgf extends Thread
 		}
 	
 	
-	 else if(getName().equals("Director"))
-	{
-		directing();
-	}
+	   else if(getName().equals("Director"))
+	   {
+	 	directing();
+	   }
 	else if(getName().equals("Actor"))
 	{
 		directing();

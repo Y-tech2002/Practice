@@ -7,6 +7,7 @@ class Msword1 extends Thread
 //	String actor="yash";
 //	String artist="artists";
 	
+	
 	public void run()
 	{
 		if(getName().equals("Typing"))
