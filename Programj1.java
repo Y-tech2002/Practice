@@ -1,4 +1,4 @@
-
+// DAY-1 26/11/24
 public class Programj1 {
 
 	public static void main(String[] args) {
@@ -16,11 +16,11 @@ public class Programj1 {
 		
 		int res= (a>b)?a:b;
 		System.out.println(res);
-		System.err.println();
+		System.out.println();
 		
-		System.err.println(a>b);
+		System.out.println(a>b);
 		System.out.println(a<b);
-		System.err.println(a>=b);
+		System.out.println(a>=b);
 		System.out.println(a<=b);
 		System.out.println(a!=b);
 		System.out.println(a==b);
